@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>Hubtel.Images.Dotnet.Client</AssemblyName>
+    <RootNamespace>Hubtel.Images.Dotnet.Client</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="flurl" Version="2.8.0" />
+    <PackageReference Include="flurl.http" Version="2.4.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
+</Project>
